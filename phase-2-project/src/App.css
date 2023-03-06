@@ -49,6 +49,17 @@
   width: auto;
 }
 
+.navBar {
+  background-color: #aaabac;
+  height: 30px;
+  align-content: center;
+  text-align: center;
+}
+
+.navBar > *{
+  margin-left:20px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
