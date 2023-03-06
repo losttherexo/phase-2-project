@@ -4,9 +4,12 @@ import NavBar from './NavBar';
 function Home () {
     return (
         <>
-            <NavBar />
-            This is Home!
-            <form id="dinoForm">
+      <h1>Dino-More</h1>
+      <h2>Dinosaur Database of Movies and Information of Multiple Species </h2>
+        <NavBar />
+       <br></br>
+    <img className="homeDinoPic" src="https://wallpaper.dog/large/11037831.jpg"/>
+    <form id="dinoForm">
                 <h2>Add a New Dinosaur</h2>
                 <input type="text" placeholder="Dinosaur Name" />
                 <input type="text" placeholder="Dinosaur Image" />
