@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import MovieCard from './MovieCard';
+import NavBar from './NavBar';
 
 function MovieContainer ({movies}) {
 
@@ -9,6 +10,7 @@ function MovieContainer ({movies}) {
     
     return (
         <div>
+            <NavBar />
             {movieArray}
         </div>
     )
