@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import MovieCard from './MovieCard';
+import NavBar from './NavBar';
 
 function MovieContainer () {
 
@@ -8,7 +9,7 @@ function MovieContainer () {
     const movieArray = movies.map(movieObj => <MovieCard key={movieObj.id} {...movieObj}/>)
     
     useEffect(() => {
-        fetch('http://localhost:3000/movies')
+        fetch('http://localhost:3001/movies')
         .then(r => r.json())
         .then(setMovies)}, []
     )
@@ -16,6 +17,7 @@ function MovieContainer () {
 
     return (
         <div>
+            <NavBar />
             {movieArray}
         </div>
     )
