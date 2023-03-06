@@ -2,19 +2,12 @@ import React, {useState, useEffect} from 'react'
 import MovieCard from './MovieCard';
 import NavBar from './NavBar';
 
-function MovieContainer () {
+function MovieContainer ({movies}) {
 
-    const [movies, setMovies] = useState([])
-
-    const movieArray = movies.map(movieObj => <MovieCard key={movieObj.id} {...movieObj}/>)
-    
-    useEffect(() => {
-        fetch('http://localhost:3001/movies')
-        .then(r => r.json())
-        .then(setMovies)}, []
+    const movieArray = movies.map(movieObj => 
+        <MovieCard key={movieObj.id} {...movieObj}/>
     )
     
-
     return (
         <div>
             <NavBar />

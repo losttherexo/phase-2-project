@@ -1,7 +1,7 @@
 import React from 'react'
 import DinoCard from './DinoCard'
 import { useState, useEffect } from 'react';
-import { Route, useMatch, useParams } from 'react-router-dom';
+import { Route, Routes, useMatch, useParams } from 'react-router-dom';
 
 function DinoContainer ({array}) {
 
@@ -12,6 +12,9 @@ function DinoContainer ({array}) {
     })
     return (
         <div className='dinoCardContainer'>
+            <Routes>
+
+            </Routes>
             {link}
         </div>
     )
