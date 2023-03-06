@@ -172,7 +172,11 @@
       "time-period": "late-Cretaceous",
       "weight": "300-1000 kg",
       "height": "1.5 m",
+<<<<<<< Updated upstream
       "funFact": "Utahraptor gained fame by starring in Jurassic Park. No you say, it was Velociraptor. Indeed, moviemaker Steven Spielberg used the name Velociraptor in his movies. However, in reality, Velociraptors are less than half the size of the dinosaurs depicted in Jurassic Park."
+=======
+      "fun fact": "Utahraptor gained fame by starring in Jurassic Park. No you say, it was Velociraptor. Indeed, moviemaker Steven Spielberg used the name Velociraptor in his movies. However, in reality, Velociraptors are less than half the size of the dinosaurs depicted in Jurassic Park."
+>>>>>>> Stashed changes
     }
   ],
   
