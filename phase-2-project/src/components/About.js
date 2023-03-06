@@ -5,7 +5,6 @@ function About () {
 
     return (
         <div>
-             <NavBar />
              <h1> This is our About </h1>
            <div>
            <h2> Andre</h2>
