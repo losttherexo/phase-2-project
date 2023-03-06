@@ -7,27 +7,18 @@ import DinoContainer from './components/DinoContainer';
 import Dinos from './components/Dinos';
 import MovieCard from './components/MovieCard';
 import MovieContainer from './components/MovieContainer';
-import Mvoies from './components/Movies';
+import Movies from './components/Movies';
 import NavBar from './components/NavBar';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+      <Route exact path='/' element={<Home />} />
+      <Route exact path='/dinos' element={<Dinos />}/>
+      <Route exact path='/movies' element={<Movies />}/>
+      <Route exact path='/about' element={<About />} />
+    </Routes>
   );
 }
 
