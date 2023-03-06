@@ -11,9 +11,11 @@ function Movies () {
         .then(setMovies)}, []
     )
 
+ 
+
     return (
         <div>
-            <MovieContainer movies={movies}/>
+            <MovieContainer movies={movies} />
         </div>
     )
 }

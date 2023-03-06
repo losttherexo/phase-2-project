@@ -35,7 +35,7 @@
       "weight": "1 kilo",
       "height": "under 1 meter",
       "funFact": "Anchionis is the oldest soaring dinosaur paleotologist have found so far"
-    },    
+    },
     {
       "id": 4,
       "name": "Iguanodon",
@@ -92,7 +92,7 @@
       "time-period": "Triassic",
       "weight": "80-150 kg",
       "funFact": "they roamed the land like seals"
-    },    
+    },
     {
       "id": 9,
       "name": "Pteranodon",
@@ -137,7 +137,7 @@
       "time-period": "mid-Cretaceous",
       "weight": "1 kilo",
       "funFact": "Derpy boi has 500 teeth in his mouf"
-    },    
+    },
     {
       "id": 13,
       "name": "Spinosaurus aegyptiacus",
@@ -175,20 +175,21 @@
       "funFact": "Utahraptor gained fame by starring in Jurassic Park. No you say, it was Velociraptor. Indeed, moviemaker Steven Spielberg used the name Velociraptor in his movies. However, in reality, Velociraptors are less than half the size of the dinosaurs depicted in Jurassic Park."
     }
   ],
-  
-  "movies":[
+  "movies": [
     {
       "id": 1,
       "title": "Jurassic Park",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt9bL9PFOkoTWZP7WTp62NDhQpoe-3ID4W4X1yqB6A0uJHpNCc",
       "director": "Steven Spielberg",
+      "likes": 3568,
       "summary": "In Steven Spielberg's massive blockbuster, paleontologists Alan Grant (Sam Neill) and Ellie Sattler (Laura Dern) and mathematician Ian Malcolm (Jeff Goldblum) are among a select group chosen to tour an island theme park populated by dinosaurs created from prehistoric DNA. While the park's mastermind, billionaire John Hammond (Richard Attenborough), assures everyone that the facility is safe, they find out otherwise when various ferocious predators break free and go on the hunt."
-    },    
+    },
     {
       "id": 2,
       "title": "The Land Before Time",
       "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQb6C-GQw8-DQhmqqN-Q9aj2ktmcdlGL6AfrW8736U05Y73-2J9",
       "director": "Don Bluth",
+      "likes": 2811,
       "summary": "Littlefoot (Gabriel Damon), a young plant-eating dinosaur, is orphaned after his mother (Helen Shaver) perishes while protecting him from a vicious carnivore. With her last breath, she tells him how to get to the legendary Great Valley, where he will be reunited with others of his kind. With his friend Cera (Candace Hutson), Littlefoot sets out for the fabled land, meeting a variety of new friends along the way -- while also being tracked by the killer dinosaur that mortally wounded his mother."
     },
     {
@@ -196,6 +197,7 @@
       "title": "Dinosaur",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-8kMyBdHPAYYRxvRltIMZuvAJj2zdelTGjSGELVSaYg0OmAnv",
       "director": "Eric Leighton",
+      "likes": 2139,
       "summary": "This is the story of Aladar (Alfre Woodard), an iguanodon dinosaur raised by a family of lemurs. Their world is turned upside-down however, when meteors strike, turning their green world into a desert wasteland. Teaming up with a herd of other herbivores, the trek is on to find the 'Nesting Ground' where water and vegetation is bountiful... but with carnivores behind them and nothing but desert around for miles, it doesn't look promising!"
     },
     {
@@ -203,6 +205,7 @@
       "title": "The Good Dinosaur",
       "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQewGtKxyp9U0PPOBYSXsk2aoVtrWorIkKQBGoPoRQillckmgWL",
       "director": "Peter Sohn",
+      "likes": 1780,
       "summary": "Luckily for young Arlo, his parents (Jeffrey Wright, Frances McDormand) and his two siblings, the mighty dinosaurs were not wiped out 65 million years ago. When a rainstorm washes poor Arlo (Raymond Ochoa) downriver, he ends up bruised, battered and miles away from home. Good fortune shines on the frightened dino when he meets Spot (Jack Bright), a Neanderthal boy who offers his help and friendship. Together, the unlikely duo embark on an epic adventure to reunite Arlo with his beloved family."
     },
     {
@@ -210,6 +213,7 @@
       "title": "Jurassic World",
       "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTB-qqFJT7vZpgG4zcDvw9sCFRcvv0B62B4-P-pUoNjiTjEKM90",
       "director": "Colin Trevorrow",
+      "likes": 2698,
       "summary": "Located off the coast of Costa Rica, the Jurassic World luxury resort provides a habitat for an array of genetically engineered dinosaurs, including the vicious and intelligent Indominus rex. When the massive creature escapes, it sets off a chain reaction that causes the other dinos to run amok. Now, it's up to a former military man and animal expert (Chris Pratt) to use his special skills to save two young brothers and the rest of the tourists from an all-out, prehistoric assault."
     },
     {
@@ -217,6 +221,7 @@
       "title": "Journey to the Center of the Earth",
       "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTOb_uHe_MpOXb4fRv-hQpAnUhCobvU9LKb-ppzNtexZF9EpJPK",
       "director": "Eric Brevig",
+      "likes": 1469,
       "summary": "During an expedition to Iceland, professor Trevor Anderson (Brendan Fraser), his nephew Sean (Josh Hutcherson) and their guide, Hannah (Anita Briem), get trapped in a cavern. As they follow their only escape route deeper and deeper below the Earth's surface, they pass through strange places and encounter incredible creatures, including dinosaurs. But as volcanic activity around them increases, they realize they must find their way out -- soon."
     }
   ]

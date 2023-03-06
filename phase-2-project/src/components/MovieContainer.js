@@ -8,6 +8,8 @@ function MovieContainer ({movies}) {
         <MovieCard key={movieObj.id} {...movieObj}/>
     )
     
+
+
     return (
         <div>
             {movieArray}
