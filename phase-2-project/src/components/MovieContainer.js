@@ -12,7 +12,6 @@ function MovieContainer ({movies}) {
 
     return (
         <div>
-            <NavBar />
             {movieArray}
         </div>
     )

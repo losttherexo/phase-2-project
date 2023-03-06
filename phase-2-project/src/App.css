@@ -28,6 +28,11 @@
   color: #61dafb;
 }
 
+.bigPic {
+  width: 75%;
+  height: auto;
+}
+
 .dinoCardContainer {
   display: flex;
   flex-flow: row wrap;
@@ -42,6 +47,17 @@
 .DinoImage {
   height: 100px;
   width: auto;
+}
+
+.navBar {
+  background-color: #aaabac;
+  height: 30px;
+  align-content: center;
+  text-align: center;
+}
+
+.navBar > *{
+  margin-left:20px;
 }
 
 @keyframes App-logo-spin {

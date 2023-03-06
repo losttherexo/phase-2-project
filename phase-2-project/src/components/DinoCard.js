@@ -1,12 +1,18 @@
 import React from 'react'
 import { Link, useParams, useMatch } from 'react-router-dom';
 
-function DinoCard ({data: {name, image, diet, habitat, location, funFact}}) {
+function DinoCard ({data, displayDino}) {
     //<Link to={`/dinos/${dino.name}`}>{dino.name}</Link>//
-    // const match = useMatch();
+    //const match = useMatch();
+    const {name, image, diet, habitat, location, funFact} = data;
+
+    const handleClick = () => {
+        console.log('helloWOrld', name)
+        displayDino(data)
+    }
 
     return (
-        <div className={'dinoCard'}>
+        <div onClick={handleClick} className={'dinoCard'}>
             <div>
             <Link to={`/dinos/${name}`}>{name}</Link>
             </div>
