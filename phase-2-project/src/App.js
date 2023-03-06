@@ -1,5 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import Home from './components/Home';
+import About from './components/About';
+import DinoCard from './components/DinoCard';
+import DinoContainer from './components/DinoContainer';
+import Dinos from './components/Dinos';
+import MovieCard from './components/MovieCard';
+import MovieContainer from './components/MovieContainer';
+import Mvoies from './components/Movies';
+import NavBar from './components/NavBar';
 
 function App() {
   return (
