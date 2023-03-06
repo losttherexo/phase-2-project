@@ -1,6 +1,19 @@
 import React from 'react'
+import { Link, useParams } from 'react-router-dom';
 
-function DinoCard () {
+function DinoCard ({data: {name, image, diet, habitat, location, funFact}}) {
+    //<Link to={`/dinos/${dino.name}`}>{dino.name}</Link>//
+
+
+    return (
+        <div className={'dinoCard'}>
+            <div>
+            <Link to={`/dinos/${name}`}>{name}</Link>
+            </div>
+            <img className='DinoImage' src={image} alt={name}></img>
+        </div>
+    )
+
 
 }
 

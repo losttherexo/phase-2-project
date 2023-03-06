@@ -10,7 +10,7 @@
       "time-period": "Mesozoic Era",
       "weight": "360-370 lbs",
       "height": "2-4 meters",
-      "fun fact": "Long finned, Deep-bodied with a high-speed pursuit and great mobility, these appear to have been ambush predators that fed on fishes"
+      "funFact": "Long finned, Deep-bodied with a high-speed pursuit and great mobility, these appear to have been ambush predators that fed on fishes"
     },
     {
       "id": 2,
@@ -22,7 +22,7 @@
       "time-period": "Late Jurassic",
       "weight": "1 kilo",
       "height": "3 meters",
-      "fun fact": "The name Stegosaurus means Roffed Lizard, it had a small head with a brain the size of a plum."
+      "funFact": "The name Stegosaurus means Roffed Lizard, it had a small head with a brain the size of a plum."
     },
     {
       "id": 3,
@@ -34,7 +34,7 @@
       "time-period": "Bathonian Age",
       "weight": "1 kilo",
       "height": "under 1 meter",
-      "fun fact": "Anchionis is the oldest soaring dinosaur paleotologist have found so far"
+      "funFact": "Anchionis is the oldest soaring dinosaur paleotologist have found so far"
     },    
     {
       "id": 4,
@@ -46,7 +46,7 @@
       "time-period": "Cretaceous Period",
       "weight": "4535 kilo",
       "height": " 20 meters",
-      "fun fact": "The Iguanodon was able to walk on two legs or four legs depending on what it wished to do."
+      "funFact": "The Iguanodon was able to walk on two legs or four legs depending on what it wished to do."
     },
     {
       "id": 5,
@@ -58,7 +58,7 @@
       "time-period": "Early Cretaceous",
       "weight": "2000 kilo",
       "height": "8 meters ",
-      "fun fact": "The mouth shape of this dinosaur was very similar to that of a crocodile, and it had a large claw, about 31cm long, probably on its thumb"
+      "funFact": "The mouth shape of this dinosaur was very similar to that of a crocodile, and it had a large claw, about 31cm long, probably on its thumb"
     },
     {
       "id": 6,
@@ -69,7 +69,7 @@
       "location": "Mongolia",
       "time-period": "Late Cretaceous",
       "weight": "7 kg",
-      "fun fact": "not like the move :("
+      "funFact": "not like the move :("
     },
     {
       "id": 7,
@@ -80,7 +80,7 @@
       "location": "Canada, USA",
       "time-period": "Late Cretaceous",
       "weight": "4000 kg",
-      "fun fact": "spiky tail"
+      "funFact": "spiky tail"
     },
     {
       "id": 8,
@@ -91,7 +91,7 @@
       "location": "North Africa, Europe, China",
       "time-period": "Triassic",
       "weight": "80-150 kg",
-      "fun fact": "they roamed the land like seals"
+      "funFact": "they roamed the land like seals"
     },    
     {
       "id": 9,
@@ -102,7 +102,7 @@
       "location": "North America",
       "time-period": "Late Cretaceous",
       "weight": "25 kg",
-      "fun fact": "had no teeth"
+      "funFact": "had no teeth"
     },
     {
       "id": 10,
@@ -113,7 +113,7 @@
       "location": "Argentina",
       "time-period": " Late Cretaceous",
       "weight": "48 kg",
-      "fun fact": "lived in groups of 3 or 4"
+      "funFact": "lived in groups of 3 or 4"
     },
     {
       "id": 11,
@@ -125,7 +125,7 @@
       "time-period": "late-Jurassic",
       "weight": "0.5 - 1 kilo",
       "length": "0.5 m",
-      "fun fact": "tiny fly boi, first flying dinosaur"
+      "funFact": "tiny fly boi, first flying dinosaur"
     },
     {
       "id": 12,
@@ -136,7 +136,7 @@
       "location": "Niger",
       "time-period": "mid-Cretaceous",
       "weight": "1 kilo",
-      "fun fact": "Derpy boi has 500 teeth in his mouf"
+      "funFact": "Derpy boi has 500 teeth in his mouf"
     },    
     {
       "id": 13,
@@ -148,7 +148,7 @@
       "time-period": "late-Cretacious",
       "Length": "15 m",
       "weight": "7,400 kg",
-      "fun fact": "Recent discoveries have confirmed this dinosaur spent most of it's time in water!"
+      "funFact": "Recent discoveries have confirmed this dinosaur spent most of it's time in water!"
     },
     {
       "id": 14,
@@ -160,7 +160,7 @@
       "time-period": "late-Cretaceous",
       "weight": "1 kilo",
       "length": "1 m",
-      "fun fact": "tiny boi with longest name"
+      "funFact": "tiny boi with longest name"
     },
     {
       "id": 15,
@@ -172,13 +172,10 @@
       "time-period": "late-Cretaceous",
       "weight": "300-1000 kg",
       "height": "1.5 m",
-      "fun fact": "Utahraptor gained fame by starring in Jurassic Park. 
-      No you say, it was Velociraptor. Indeed, moviemaker Steven Spielberg 
-      used the name Velociraptor in his movies. However, in reality, 
-      Velociraptors are less than half the size of the dinosaurs depicted 
-      in Jurassic Park."
+      "funFact": "Utahraptor gained fame by starring in Jurassic Park. No you say, it was Velociraptor. Indeed, moviemaker Steven Spielberg used the name Velociraptor in his movies. However, in reality, Velociraptors are less than half the size of the dinosaurs depicted in Jurassic Park."
     }
   ],
+  
   "movies":[
     {
       "id": 1,
@@ -199,7 +196,7 @@
       "title": "Dinosaur",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-8kMyBdHPAYYRxvRltIMZuvAJj2zdelTGjSGELVSaYg0OmAnv",
       "director": "Eric Leighton",
-      "summary": "This is the story of Aladar (Alfre Woodard), an iguanodon dinosaur raised by a family of lemurs. Their world is turned upside-down however, when meteors strike, turning their green world into a desert wasteland. Teaming up with a herd of other herbivores, the trek is on to find the "Nesting Ground" where water and vegetation is bountiful... but with carnivores behind them and nothing but desert around for miles, it doesn't look promising!"
+      "summary": "This is the story of Aladar (Alfre Woodard), an iguanodon dinosaur raised by a family of lemurs. Their world is turned upside-down however, when meteors strike, turning their green world into a desert wasteland. Teaming up with a herd of other herbivores, the trek is on to find the 'Nesting Ground' where water and vegetation is bountiful... but with carnivores behind them and nothing but desert around for miles, it doesn't look promising!"
     },
     {
       "id": 4,
