@@ -178,5 +178,14 @@
       Velociraptors are less than half the size of the dinosaurs depicted 
       in Jurassic Park."
     }
+  ],
+  "movies":[
+    {
+      "id": 1,
+      "title": "Jurassic Park",
+      "image": "",
+      "director": "Steven Spielberg",
+      "summary": ""
+    }
   ]
 }
