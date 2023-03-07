@@ -1,3 +1,4 @@
+
 {
   "dinos": [
     {
@@ -20,7 +21,7 @@
       "habitat": "Land",
       "location": "USA",
       "time-period": "Late Jurassic",
-      "weight": "1 kilo",
+      "weight": "2 tons",
       "height": "3 meters",
       "funFact": "The name Stegosaurus means Roffed Lizard, it had a small head with a brain the size of a plum."
     },
@@ -45,7 +46,7 @@
       "location": "Asia, Europe, and North America,",
       "time-period": "Cretaceous Period",
       "weight": "4535 kilo",
-      "height": " 20 meters",
+      "height": " 4-5 meters",
       "funFact": "The Iguanodon was able to walk on two legs or four legs depending on what it wished to do."
     },
     {
@@ -57,7 +58,7 @@
       "location": "England, Spain, and UK",
       "time-period": "Early Cretaceous",
       "weight": "2000 kilo",
-      "height": "8 meters ",
+      "height": "3-4 meters ",
       "funFact": "The mouth shape of this dinosaur was very similar to that of a crocodile, and it had a large claw, about 31cm long, probably on its thumb"
     },
     {
@@ -69,12 +70,12 @@
       "location": "Mongolia",
       "time-period": "Late Cretaceous",
       "weight": "7 kg",
-      "funFact": "not like the move :("
+      "funFact": "not like the movie :("
     },
     {
       "id": 7,
       "name": "Ankylosaurus",
-      "image": "https://static.wikia.nocookie.net/jurassicworld-evolution/images/6/65/JWEAnkylosaurus.png/revision/latest?cb=20210920183446",
+      "image": "https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_1920,f_auto/MA_00310968_xqooyl.jpg",
       "diet": "Herbivore",
       "habitat": "Land",
       "location": "Canada, USA",
@@ -120,9 +121,9 @@
       "name": "Archaeopteryx",
       "image": "https://www.thoughtco.com/thmb/jPAC99xp_kFB_uxfiKulnnbKQ5g=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2048px-Archaeopteryx_fossil-5c5b17f246e0fb0001849b0e.jpg",
       "diet": "Carnivore",
-      "habitat": "land, air",
+      "habitat": "Forests",
       "location": "near Solnhofen, Germany",
-      "time-period": "late-Jurassic",
+      "time-period": "Late Jurassic",
       "weight": "0.5 - 1 kilo",
       "length": "0.5 m",
       "funFact": "tiny fly boi, first flying dinosaur"
@@ -173,6 +174,50 @@
       "weight": "300-1000 kg",
       "height": "1.5 m",
       "funFact": "Utahraptor gained fame by starring in Jurassic Park. No you say, it was Velociraptor. Indeed, moviemaker Steven Spielberg used the name Velociraptor in his movies. However, in reality, Velociraptors are less than half the size of the dinosaurs depicted in Jurassic Park."
+    },
+    {
+      "name": "Triceratops",
+      "image": "https://i.natgeofe.com/n/b96b572c-98e2-4ec2-a714-08a6b95cf646/triceratopshorridus_hexdcb_3x2.jpg",
+      "diet": "Herbivore",
+      "habitat": "Grasslands",
+      "location": "North America",
+      "time": "Late Cretaceous",
+      "weight": "6-12 tons",
+      "size": "9 meters",
+      "funFact": "Triceratops had a frill on its head that may have been used for display or protection."
+    },
+    {
+      "name": "Brachiosaurus",
+      "image": "https://thanksgivingpoint.org/app/uploads/2022/06/2022_DinoIsland_026-768x512.jpg",
+      "diet": "Herbivore",
+      "habitat": "Forests",
+      "location": "North America, Africa",
+      "time": "Late Jurassic",
+      "weight": "30-80 tons",
+      "size": "26 meters",
+      "funFact": "Brachiosaurus had a long neck that allowed it to reach high vegetation."
+    },
+    {
+      "name": "Diplodocus",
+      "image": "https://a-z-animals.com/media/2022/06/diplodocus-dinosaur.jpg",
+      "diet": "Herbivore",
+      "habitat": "Forests",
+      "location": "North America",
+      "time": "Late Jurassic",
+      "weight": "10-16 tons",
+      "size": "27 meters",
+      "funFact": "Diplodocus had a long tail that made up more than half of its body length."
+    },
+    {
+      "name": "Tyrannosaurus Rex",
+      "image": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/A2SVSGGWUAI6PGWZZIDBT3P2AU.jpg&w=1484",
+      "diet": "Carnivore",
+      "habitat": "Forests",
+      "location": "North America",
+      "time": "Late Cretaceous",
+      "weight": "5-7 tons",
+      "size": "12-13 meters",
+      "funFact": "Tyrannosaurus Rex had the strongest bite force of any land animal."
     }
   ],
   "movies": [
