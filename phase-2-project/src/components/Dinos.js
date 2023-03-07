@@ -26,13 +26,13 @@ function Dinos () {
         fetch(port)
             .then(res => res.json())
             .then(returnedArray => setDinoArray(returnedArray))
-    },[])
+    },[]) //hidden={hideSpec}
 
     return (
         <>
             Dino Page!
             <DinoContainer array={dinoArray} displayDino={displayDinos}/>
-            <div onClick={() =>setHideSpec(true)} hidden={hideSpec} className='dinoSpecs'>
+            <div onClick={() =>setHideSpec(true)} className='dinoSpecs'>
                 <h1>{dinoDisp.name}</h1>
                 <img className='bigPic' src={dinoDisp.image} alt={dinoDisp.name}></img>
                 <p>{'Diet: '+ dinoDisp.diet}</p>
