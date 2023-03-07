@@ -50,8 +50,8 @@ function MovieContainer ({movies, onAddMovie}) {
     
 
     return (
-        <>
-        <div>
+
+        <div className='movieCardContainer'>
             {movieArray}
         </div>
              <form id="dinoMovie" onSubmit={handleSubmit}>
