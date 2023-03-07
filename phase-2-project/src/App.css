@@ -55,7 +55,8 @@
 }
 
 .dinoCard {
-  align-self: center;
+  background-color:rgb(95, 95, 95);
+  box-shadow: 0px, 2px, 1px;
 }
 
 .dinoCard:hover{
@@ -105,12 +106,21 @@
 
 .navBar {
   background-color: #aaabac;
-  height: 30px;
+  height: 25px;
+  text-align: center;
+}
+
+.navBar:hover {
+  -webkit-transform: scale(1.2);
+  transition: .3s ease;
 }
 
 .navBar > * {
-  margin-left:20px;
-  background-color: lightskyblue;
+  margin-top: 5px;
+  margin-left: 20px;
+  background: linear-gradient(to bottom right, white, lightgrey, grey);
+  border-radius: 4px;
+  box-shadow: 1px, 2px, 2px, 1px, gray;
 
 }
 

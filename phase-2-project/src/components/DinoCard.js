@@ -13,9 +13,12 @@ function DinoCard ({data, displayDino}) {
 
     return (
         <div onClick={handleClick} className={'dinoCard'}>
-            <div>
+            {/* <div>
             <Link to={`/dinos/${name}`}>{name}</Link>
-            </div>
+            </div> */}
+
+            <div>{name}</div>
+
             <img className='DinoImage' src={image} alt={name}></img>
         </div>
     )
