@@ -7,15 +7,21 @@
   pointer-events: none;
 }
 
+/* HOME CSS */
+
 .home {
-  text-align: center;
   background: linear-gradient(#a9a9aa, white);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
   position: relative;
 }
 
 .homeDinoPic{
   width: 1200px;
 }
+
+/*  */
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -135,12 +141,19 @@
   -webkit-transform: scale(1.01);
   transform: scale(1.01);
   transition: .3s ease;
-  }
+}
 
 .movieImage {
   width: 250px;
 }
 
+#addMovie {
+  position: absolute;
+  justify-self: center;
+  background: linear-gradient(to bottom right, white, lightgrey, grey);
+  border-width: 1px;
+  border-radius: 20px;
+}
 /* ABOUT PAGE CSS */
 
 .aboutPage {
@@ -169,13 +182,18 @@
 .aboutImage {
   width: 275px;
 }
+
+.aboutCard:hover{
+  -webkit-transform: scale(1.01);
+  transform: scale(1.01);
+  transition: .3s ease;
+}
+
 /* NAVBAR CSS */
 
 .navBar {
-  background-color: #aaabac;
-  height: 25px;
+  background-color: rgb(95, 95, 95);
   text-align: center;
-
 }
 
 .navBar:hover {
