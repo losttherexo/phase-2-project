@@ -165,3 +165,37 @@
   width: 1200px;
 
 }
+
+.form-box{
+  background: rgb(95, 95, 95);
+  width: 300px;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  position:relative; 
+  
+  /* position: absolute;
+  justify-self: center; */
+}
+.form-box input, textarea{
+  display: block;
+  width: 100%;
+  margin: .8vw 0 ;
+  border:0;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.submitB{
+  
+    display: inline-block;
+    width: 45%;
+    height: 2rem;
+    color: black;
+    border: 0;
+    bottom: 0;
+    cursor: pointer;
+    font-size: 20px;
+    position:center;
+
+}
