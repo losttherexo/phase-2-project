@@ -7,6 +7,10 @@
   pointer-events: none;
 }
 
+.home {
+  text-align: center;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -88,6 +92,12 @@
   border-radius: 8px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15)
 }
+
+.movieCard:hover{
+  -webkit-transform: scale(1.01);
+  transform: scale(1.01);
+  transition: .3s ease;
+  }
 
 .movieImage {
   width: 250px;
