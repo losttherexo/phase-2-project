@@ -28,6 +28,48 @@ function Dinos () {
             .then(returnedArray => setDinoArray(returnedArray))
     },[])
 
+    const [dForm, setDForm]= useState ({
+        name: "",
+        image: "",
+        diet: "" ,
+        habitat: "",
+        location: "",
+        period: "",
+        height: "",
+        fact: "",
+
+    })
+    function handleChange(e) {
+        setDForm({
+            ...dForm,
+            [e.target.name]: e.target.value
+        })
+    }
+    function handleSubmit(e) {
+     e.preventDefault();
+     const newDino = {
+        name: dForm.name,
+        image: dForm.image,
+        diet: dForm.diet,
+        habitat: dForm.habitat,
+        location: dForm.location,
+        period: dForm.period,
+        height: dForm.height,
+        fact: dForm.fact,
+     }
+     fetch(port, {
+        method: "POST",
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify(newDino)
+     })
+     .then(res => res.json())
+     .then(handleAddDino)
+    }
+    function handleAddDino(newDino){
+        setDinoArray([...dinoArray, newDino]);
+
+    }
+
     return (
         <>
             Dino Page!
@@ -45,6 +87,19 @@ function Dinos () {
 
 
             </div>
+            <form id="dinoForm" onSubmit={handleSubmit}>
+                <h2>Add a New Dinosaur</h2>
+                <input onChange={handleChange} value={dForm.name}name="name"type="text" placeholder="Dinosaur Name" />
+                <input onChange={handleChange} value={dForm.image}name="image"type="text" placeholder="Dinosaur Image" />
+                <input onChange={handleChange} value={dForm.diet}name="diet"type="text" placeholder="Dinosaur Diet" />
+                <input onChange={handleChange} value={dForm.habitat}name="habitat"type="text" placeholder="Dinosaur Habitat" />
+                <input onChange={handleChange} value={dForm.location}name="location"t ype="text" placeholder="Dinosaur Location" />
+                <input onChange={handleChange} value={dForm.period}name="period"type="text" placeholder="Dinosaur Time Period" />
+                <input onChange={handleChange} value={dForm.weight}name="weight"type="number" placeholder="Dinosaur Weight" />
+                <input onChange={handleChange} value={dForm.height}name="height"type="number" placeholder="Dinosaur Height" />
+                <input onChange={handleChange} value={dForm.fact} name="fact" type="text" placeholder="Dinosaur Fun Fact" />
+                <button type="submit">Submit Dinosaur</button>
+            </form>
         </>
     )
         /**

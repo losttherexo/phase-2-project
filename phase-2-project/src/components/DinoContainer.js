@@ -14,6 +14,7 @@ function DinoContainer ({array, displayDino}) {
             <div className='dinoCardContainer'>
                 {route}
             </div>
+       
         </>
     )
  //hello world
