@@ -12,6 +12,7 @@ function Dinos () {
     const [searchedArr, setSearchedArr] = useState([]);
     const [dinoDisp, setDinoDisp] = useState({});
     const [hideSpec, setHideSpec] = useState(true);
+    const [hideAddForm, sethideAddForm] = useState(true);
 
     let port = 'http://localhost:3001/dinos';
 
@@ -72,7 +73,6 @@ function Dinos () {
 
     return (
         <>
-            Dino Page!
             <DinoContainer array={dinoArray} displayDino={displayDinos}/>
             <div onClick={() =>setHideSpec(true)} hidden={hideSpec} className='dinoSpecs'>
                 <h1>{dinoDisp.name}</h1>
@@ -87,7 +87,8 @@ function Dinos () {
 
 
             </div>
-            <form id="dinoForm" onSubmit={handleSubmit}>
+            <button onClick={() => sethideAddForm(!hideAddForm)} id='addDBtn'>Add Dinosaurs</button>
+            <form hidden={hideAddForm} id="dinoForm" onSubmit={handleSubmit}>
                 <h2>Add a New Dinosaur</h2>
                 <input onChange={handleChange} value={dForm.name}name="name"type="text" placeholder="Dinosaur Name" />
                 <input onChange={handleChange} value={dForm.image}name="image"type="text" placeholder="Dinosaur Image" />
