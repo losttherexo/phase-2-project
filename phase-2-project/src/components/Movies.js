@@ -10,12 +10,15 @@ function Movies () {
         .then(r => r.json())
         .then(setMovies)}, []
     )
+    function onAddMovie(newMovie){
+        setMovies([...movies, newMovie])
 
+    }
  
 
     return (
         <div>
-            <MovieContainer movies={movies} />
+            <MovieContainer onAddMovie= {onAddMovie} movies={movies} />
         </div>
     )
 }
