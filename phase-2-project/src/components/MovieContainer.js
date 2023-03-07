@@ -53,16 +53,17 @@ function MovieContainer ({movies, onAddMovie}) {
 
         <div className='movieCardContainer'>
             {movieArray}
-        </div>
+
              <form id="dinoMovie" onSubmit={handleSubmit}>
-             <h2>Add a New Movie</h2>
-             <input onChange={handleMovieChange} value={mForm.name} name= "title" type="text" placeholder="Movie Title" />
-             <input onChange={handleMovieChange} value={mForm.image}name= "image" type="text" placeholder="Movie Image" />
-             <input onChange={handleMovieChange} value={mForm.director}name= "director" type="text" placeholder="Movie Director" />
-             <input onChange={handleMovieChange} value={mForm.summary}name = "summary" type="text" placeholder="Movie Summary" />
-             <button type="submit">Submit Movie</button>
-          </form>
-          </>
+                <h2>Add a New Movie</h2>
+                <input onChange={handleMovieChange} value={mForm.name} name= "title" type="text" placeholder="Movie Title" />
+                <input onChange={handleMovieChange} value={mForm.image}name= "image" type="text" placeholder="Movie Image" />
+                <input onChange={handleMovieChange} value={mForm.director}name= "director" type="text" placeholder="Movie Director" />
+                <input onChange={handleMovieChange} value={mForm.summary}name = "summary" type="text" placeholder="Movie Summary" />
+                <button type="submit">Submit Movie</button>
+            </form>
+        </div>
+            
     )
 }
 

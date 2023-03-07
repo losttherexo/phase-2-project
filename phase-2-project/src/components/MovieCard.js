@@ -13,8 +13,6 @@ function MovieCard ({title, image, director, summary, id, likes}) {
             <p>{summary}</p>
             <LikeButton likes={likes} id={id} />
         </div>
-   
-     </>
     )
 }
 
