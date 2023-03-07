@@ -11,7 +11,7 @@ function MovieContainer ({movies}) {
 
 
     return (
-        <div>
+        <div className='movieCardContainer'>
             {movieArray}
         </div>
     )

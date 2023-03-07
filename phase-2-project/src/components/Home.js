@@ -6,7 +6,6 @@ function Home () {
         <>
       <h1>Dino-More</h1>
       <h2>Dinosaur Database of Movies and Information of Multiple Species </h2>
-        <NavBar />
        <br></br>
     <img className="homeDinoPic" src="https://wallpaper.dog/large/11037831.jpg"/>
     <form id="dinoForm">

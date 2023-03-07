@@ -5,9 +5,9 @@ function MovieCard ({title, image, director, summary, id, likes}) {
 
 
     return (
-        <div>
+        <div className='movieCard'>
             <h1>{title}</h1>
-            <img src={image}></img>
+            <img src={image} className='movieImage'></img>
             <h3>{director}</h3>
             <p>{summary}</p>
             <LikeButton likes={likes} id={id} />

@@ -49,11 +49,31 @@
   width: auto;
 }
 
+.movieCardContainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 25px;
+  margin-left: 30px;
+  margin-right: 30px
+}
+
+.movieCard {
+  background: rgb(95, 95, 95);
+  width: 300px;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15)
+}
+
+.movieImage {
+  width: 250px;
+}
+
 .navBar {
   background-color: #aaabac;
   height: 30px;
-  align-content: center;
-  text-align: center;
 }
 
 .navBar > *{
@@ -71,4 +91,5 @@
 
 .homeDinoPic{
   width: 1200px;
+
 }
