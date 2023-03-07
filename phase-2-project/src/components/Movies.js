@@ -17,7 +17,7 @@ function Movies () {
  
 
     return (
-        <div>
+        <div className='moviePage'>
             <MovieContainer onAddMovie= {onAddMovie} movies={movies} />
         </div>
     )
