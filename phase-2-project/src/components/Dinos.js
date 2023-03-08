@@ -1,6 +1,5 @@
 import React from 'react'
 import DinoContainer from './DinoContainer'
-import NavBar from './NavBar';
 import { useState, useEffect } from 'react';
 //import {Route, Routes} from 'react-router-dom'
 
@@ -8,8 +7,6 @@ function Dinos () {
     // let params = useParams();
     // console.log(params);
     const [dinoArray, setDinoArray] = useState([]);
-    const [searchQuery, setSearchQuery] = useState('');
-    const [searchedArr, setSearchedArr] = useState([]);
     const [dinoDisp, setDinoDisp] = useState({});
     const [hideSpec, setHideSpec] = useState(true);
     const [hideAddForm, sethideAddForm] = useState(true);
@@ -19,15 +16,13 @@ function Dinos () {
     const displayDinos = (dino) => {
         setDinoDisp(dino);
         setHideSpec(false);
-
-
     }
 
     useEffect(() => {
         fetch(port)
             .then(res => res.json())
             .then(returnedArray => setDinoArray(returnedArray))
-    },[]) //hidden={hideSpec}
+    },[port]) //hidden={hideSpec}
 
     const [dForm, setDForm]= useState ({
         name: "",
