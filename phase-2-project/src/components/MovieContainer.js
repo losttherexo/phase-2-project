@@ -1,10 +1,10 @@
 import React, {useState} from 'react'
 import MovieCard from './MovieCard';
-import NavBar from './NavBar';
 
 function MovieContainer ({movies, onAddMovie}) {
     
     const [hideAddForm, sethideAddForm] = useState(true)
+
     const [mForm, setMForm] = useState({
         title: "",
         image: "",
@@ -17,7 +17,6 @@ function MovieContainer ({movies, onAddMovie}) {
     )
 
     const addButton = <button onClick={() => sethideAddForm(!hideAddForm)} id='addMovie'>Add Movie</button>
-   
 
     function handleMovieChange(e){
         setMForm({
@@ -25,7 +24,6 @@ function MovieContainer ({movies, onAddMovie}) {
             [e.target.name]: e.target.value,
         })
     }
-
 
     function handleSubmit(e){
         e.preventDefault();

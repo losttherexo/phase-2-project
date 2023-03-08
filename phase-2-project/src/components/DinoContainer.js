@@ -1,6 +1,5 @@
 import React from 'react'
 import DinoCard from './DinoCard'
-import { useState, useEffect } from 'react';
 
 function DinoContainer ({array, displayDino}) {
     let route = array.map(dino => {
