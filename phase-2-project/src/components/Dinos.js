@@ -35,9 +35,10 @@ function Dinos () {
         diet: "" ,
         habitat: "",
         location: "",
-        period: "",
+        'time-period': "",
         height: "",
-        fact: "",
+        weight: "",
+        funFact: "",
 
     })
     function handleChange(e) {
@@ -54,9 +55,10 @@ function Dinos () {
         diet: dForm.diet,
         habitat: dForm.habitat,
         location: dForm.location,
-        period: dForm.period,
+        "time-period": dForm['time-period'],
         height: dForm.height,
-        fact: dForm.fact,
+        weight: dForm.weight,
+        funFact: dForm.funFact,
      }
      fetch(port, {
         method: "POST",
@@ -76,7 +78,7 @@ function Dinos () {
             <DinoContainer array={dinoArray} displayDino={displayDinos}/>
             <div onClick={() =>setHideSpec(true)} hidden={hideSpec} className='dinoSpecs'>
                 <h1>{dinoDisp.name}</h1>
-                <img className='bigPic' src={dinoDisp.image} alt={dinoDisp.name}></img>
+                <img className='bigPic shadow' src={dinoDisp.image} alt={dinoDisp.name}></img>
                 <p>{'Diet: '+ dinoDisp.diet}</p>
                 <p>{'Habitat: '+ dinoDisp.habitat}</p>
                 <p>{'Location: '+ dinoDisp.location}</p>
@@ -87,7 +89,7 @@ function Dinos () {
 
 
             </div>
-            <button onClick={() => sethideAddForm(!hideAddForm)} id='addDBtn'>Add Dinosaurs</button>
+            <button onClick={() => sethideAddForm(!hideAddForm)} className='shadow' id='addDBtn'>Add Dinosaurs</button>
             <br></br>
             <br></br>
             <br></br>
@@ -99,10 +101,10 @@ function Dinos () {
                 <input onChange={handleChange} value={dForm.diet}name="diet"type="text" placeholder="Dinosaur Diet" />
                 <input onChange={handleChange} value={dForm.habitat}name="habitat"type="text" placeholder="Dinosaur Habitat" />
                 <input onChange={handleChange} value={dForm.location}name="location"t ype="text" placeholder="Dinosaur Location" />
-                <input onChange={handleChange} value={dForm.period}name="period"type="text" placeholder="Dinosaur Time Period" />
-                <input onChange={handleChange} value={dForm.weight}name="weight"type="number" placeholder="Dinosaur Weight" />
-                <input onChange={handleChange} value={dForm.height}name="height"type="number" placeholder="Dinosaur Height" />
-                <input onChange={handleChange} value={dForm.fact} name="fact" type="text" placeholder="Dinosaur Fun Fact" />
+                <input onChange={handleChange} value={dForm["time-period"]}name="time-period"type="text" placeholder="Dinosaur Time Period" />
+                <input onChange={handleChange} value={dForm.weight}name="weight"type="text" placeholder="Dinosaur Weight" />
+                <input onChange={handleChange} value={dForm.height}name="height"type="text" placeholder="Dinosaur Height" />
+                <input onChange={handleChange} value={dForm.funFact} name="funFact" type="text" placeholder="Dinosaur Fun Fact" />
                 <button className="submitB1" type="submit">Submit Dinosaur</button>
             </form>
             <br></br>
