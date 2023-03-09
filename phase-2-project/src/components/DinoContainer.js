@@ -10,7 +10,7 @@ function DinoContainer ({array, displayDino}) {
     })
     return (
         <>
-            <div className='dinoCardContainer'>
+            <div className='dinoCardContainer bg-gradient-to-b from-stone-400 to-zinc-700'>
                 {route}
             </div>
        

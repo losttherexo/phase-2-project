@@ -1,7 +1,7 @@
-.navBar {
+/* .navBar {
   background-color: rgb(95, 95, 95);
   text-align: center;
-}
+} */
 
 .navBar:hover {
   -webkit-transform: scaleY(1.5);
@@ -20,8 +20,8 @@
 }
 
 .bigPic {
-  width: 75%;
-  height: auto;
+  width: auto;
+  height: 300px;
 }
 
 .hide {
@@ -37,9 +37,7 @@
 .dinoCardContainer {
   display: flex;
   flex-flow: row wrap;
-  gap: 30px;
   justify-content: space-around;
-  background: linear-gradient(#a9a9aa, white)
 }
 
 #addDBtn {
@@ -85,15 +83,14 @@
 }
 
 .dinoSpecs {
-  text-align: center;
+  background: rgb(95, 95, 95);
   border-radius: 20px;
-  background: linear-gradient(white, grey);
+  width: 750px;
 }
 
 /* MOVIE CSS */
 
 .moviePage {
-  background: linear-gradient(#a9a9aa, white);
   position: absolute
 }
 
@@ -109,9 +106,6 @@
 
 .movieCard {
   background: rgb(95, 95, 95);
-  width: 300px;
-  padding: 30px;
-  border-radius: 8px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15)
 }
 
@@ -119,10 +113,6 @@
   -webkit-transform: scale(1.01);
   transform: scale(1.01);
   transition: .3s ease;
-}
-
-.movieImage {
-  width: 250px;
 }
 
 #addMovie {
@@ -133,11 +123,6 @@
   border-radius: 20px;
 }
 /* ABOUT PAGE CSS */
-
-.aboutPage {
-  background: linear-gradient(#a9a9aa, white);
-  position: relative;
-}
 
 .aboutContainer {
   display: flex;
@@ -152,7 +137,6 @@
 .aboutCard {
   background: rgb(95, 95, 95);
   width: 300px;
-  padding: 30px;
   border-radius: 8px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15)
 }
