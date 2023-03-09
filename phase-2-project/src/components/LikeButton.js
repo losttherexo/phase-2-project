@@ -21,9 +21,11 @@ const LikeButton = ({id, likes}) => {
     }
 
     return (
-        <button onClick={handleLike}>
-            <span> <GiDinosaurRex /> {liked}</span>
-        </button>
+        <div className='flex justify-center p-3'>
+            <button className='flex justify-center border px-1 rounded shadow-sm bg-stone-500' onClick={handleLike}>
+                <span className='font-normal flex flex-row'> 🦖 {liked}</span>
+            </button>
+        </div>
     )
 }
 

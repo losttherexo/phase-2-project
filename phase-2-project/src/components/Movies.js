@@ -17,7 +17,7 @@ function Movies () {
  
 
     return (
-        <div className='moviePage'>
+        <div className='moviePage bg-gradient-to-b from-stone-400 to-zinc-700'>
             <MovieContainer onAddMovie= {onAddMovie} movies={movies} />
         </div>
     )

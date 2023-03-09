@@ -71,25 +71,28 @@ function Dinos () {
     return (
         <>
             <DinoContainer array={dinoArray} displayDino={displayDinos}/>
-            <div onClick={() =>setHideSpec(true)} hidden={hideSpec} className='dinoSpecs'>
-                <h1>{dinoDisp.name}</h1>
-                <img className='bigPic shadow' src={dinoDisp.image} alt={dinoDisp.name}></img>
-                <p>{'Diet: '+ dinoDisp.diet}</p>
-                <p>{'Habitat: '+ dinoDisp.habitat}</p>
-                <p>{'Location: '+ dinoDisp.location}</p>
-                <p>{'Time Alive: '+ dinoDisp['time-period']}</p>
-                <p>{'Weight: '+ dinoDisp.weight}</p>
-                <p>{'Size: '+ (dinoDisp.height || dinoDisp.length)}</p>
-                <p>{'Fun Fact: '+ dinoDisp.funFact}</p>
-
-
+            <div className='flex justify-center'>
+                <div onClick={() =>setHideSpec(true)} hidden={hideSpec} className='m-5 dinoSpecs text-center'>
+                    <h1 className='text-2xl m-3 font-bold text-center'>{dinoDisp.name}</h1>
+                    <div className='flex flex-col'>
+                    <img className='flex bigPic self-center shadow m-2' src={dinoDisp.image} alt={dinoDisp.name}></img>
+                    </div>
+                        <p>{'Diet: '+ dinoDisp.diet}</p>
+                        <p>{'Habitat: '+ dinoDisp.habitat}</p>
+                        <p>{'Location: '+ dinoDisp.location}</p>
+                        <p>{'Time Alive: '+ dinoDisp['time-period']}</p>
+                        <p>{'Weight: '+ dinoDisp.weight}</p>
+                        <p>{'Size: '+ (dinoDisp.height || dinoDisp.length)}</p>
+                        <p className='mx-2'>{'Fun Fact: '+ dinoDisp.funFact}</p>
+                    
+                </div>
             </div>
             <button onClick={() => sethideAddForm(!hideAddForm)} className='shadow' id='addDBtn'>Add Dinosaurs</button>
             <br></br>
             <br></br>
             <br></br>
             <br></br>
-            <form className= "form-box1" hidden={hideAddForm} id="dinoForm" onSubmit={handleSubmit}>
+            <form className="form-box1" hidden={hideAddForm} id="dinoForm" onSubmit={handleSubmit}>
                 <h2>Add a New Dinosaur</h2>
                 <input onChange={handleChange} value={dForm.name}name="name"type="text" placeholder="Dinosaur Name" />
                 <input onChange={handleChange} value={dForm.image}name="image"type="text" placeholder="Dinosaur Image" />
