@@ -1,5 +1,6 @@
 import React from 'react'
 import andredinopic from '../images/andredinopic.jpg'
+import mark from '../images/mark.jpg'
 
 function About () {
 
@@ -15,9 +16,9 @@ function About () {
                 </div>
                 <div className='aboutCard p-6'>
                     <h2 className='font-bold text-xl m-2'>Mark</h2>
-                    <img className='aboutImage' src="https://t4.ftcdn.net/jpg/03/59/58/91/360_F_359589186_JDLl8dIWoBNf1iqEkHxhUeeOulx0wOC5.jpg" alt='Mark' />
-                    <p className='m-2'>Favorite Dinosaur: A bit about us</p>
-                    <p> Favorite Dinosaur Movie: The Land Before Time</p>
+                    <img className='aboutImage' src={mark} alt='Mark' />
+                    <p className='m-2'>Favorite Dinosaur: Archaeopteryx</p>
+                    <p> Favorite Dinosaur Movie: The Land Of The Lost</p>
                 </div>
                 <div className='aboutCard p-6'>
                     <h2 className='font-bold text-xl m-2'>Robert</h2>
