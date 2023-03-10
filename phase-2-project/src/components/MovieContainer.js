@@ -47,15 +47,15 @@ function MovieContainer ({movies, onAddMovie}) {
     return (
         <div>
             <div className='movieCardContainer'>{movieArray}</div>
-            <div className='movieCardContainer'>{addButton}</div>
-            <div className='movieCardContainer'>
+            <div className='movieCardContainer py-2'>{addButton}</div>
+            <div className='movieCardContainer py-2'>
                     <form className= "form-box" hidden={hideAddForm} id="dinoMovie" onSubmit={handleSubmit}>
-                        <h2>Add a New Movie</h2>
+                        <h2 className='text-xl font-bold'>Add a New Movie</h2>
                         <input onChange={handleMovieChange} value={mForm.name} name= "title" type="text" placeholder="Movie Title" />
                         <input onChange={handleMovieChange} value={mForm.image}name= "image" type="text" placeholder="Movie Image" />
                         <input onChange={handleMovieChange} value={mForm.director}name= "director" type="text" placeholder="Movie Director" />
                         <input onChange={handleMovieChange} value={mForm.summary}name = "summary" type="text" placeholder="Movie Summary" />
-                        <button className="submitB" type="submit">Submit Movie</button>
+                        <button className="submitB py-2 border rounded-md shadow-sm hover:bg-slate-400" type="submit">Submit Movie</button>
                     </form>
             </div>
         </div> 
