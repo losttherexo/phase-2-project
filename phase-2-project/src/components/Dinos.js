@@ -82,8 +82,10 @@ function Dinos () {
 
     return (
         <>
+            <div className='bg-stone-400' >
             <Search searcher={searchDinos} />
             <DinoContainer array={searchQuery === ''? dinoArray : searchArr} displayDino={displayDinos}/>
+            </div>
             <div className='flex justify-center'>
                 <div onClick={() =>setHideSpec(true)} hidden={hideSpec} className='m-5 dinoSpecs text-center'>
                     <h1 className='text-2xl m-3 font-bold text-center'>{dinoDisp.name}</h1>
