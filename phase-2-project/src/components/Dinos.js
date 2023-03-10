@@ -1,6 +1,7 @@
 import React from 'react'
 import DinoContainer from './DinoContainer'
 import { useState, useEffect } from 'react';
+import Search from './Search';
 //import {Route, Routes} from 'react-router-dom'
 
 function Dinos () {
@@ -10,7 +11,8 @@ function Dinos () {
     const [dinoDisp, setDinoDisp] = useState({});
     const [hideSpec, setHideSpec] = useState(true);
     const [hideAddForm, sethideAddForm] = useState(true);
-
+    const [searchArr, setSearchArr] = useState([]);
+    const [searchQuery, setSearchQuery] = useState(''); 
     let port = 'http://localhost:3001/dinos';
 
     const displayDinos = (dino) => {
@@ -68,9 +70,20 @@ function Dinos () {
 
     }
 
+    const searchDinos = (query) => {
+        setSearchQuery(query);
+        query = query.toLowerCase();
+        let tmpArr = dinoArray.filter(dino => {
+            return (dino.name.toLowerCase().includes(query) || dino.weight.toLowerCase().includes(query) || dino.diet.toLowerCase().includes(query) || dino.location.toLowerCase().includes(query) || dino['time-period'].toLowerCase().includes(query) || dino.habitat.toLowerCase().includes(query) || dino.funFact.toLowerCase().includes(query))
+        })
+        console.log(tmpArr);
+        setSearchArr(tmpArr);
+    }
+
     return (
         <>
-            <DinoContainer array={dinoArray} displayDino={displayDinos}/>
+            <Search searcher={searchDinos} />
+            <DinoContainer array={searchQuery === ''? dinoArray : searchArr} displayDino={displayDinos}/>
             <div className='flex justify-center'>
                 <div onClick={() =>setHideSpec(true)} hidden={hideSpec} className='m-5 dinoSpecs text-center'>
                     <h1 className='text-2xl m-3 font-bold text-center'>{dinoDisp.name}</h1>
