@@ -155,40 +155,8 @@
   width: 1200px;
 }
 
+
 .form-box{
-  background: rgb(95, 95, 95);
-  width: 300px;
-  padding: 30px;
-  border-radius: 8px;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
-  text-align: center;
-  position:relative; 
-}
-
-.form-box input, textarea{
-  display: block;
-  width: 100%;
-  margin: .8vw 0 ;
-  border:0;
-  border-radius: 5px;
-  font-size: 20px;
-}
-
-.submitB{
-  
-  display: inline-block;
-  width: 45%;
-  height: 2rem;
-  color: black;
-  border: 0;
-  bottom: 0;
-  cursor: pointer;
-  font-size: 20px;
-  position:center;
-
-}
-
-.form-box1{
   margin: 0 auto;
   background: rgb(95, 95, 95);
   width: 300px;
@@ -198,25 +166,21 @@
   text-align: center;
 }
 
-.form-box1 input, textarea{
+.form-box input, textarea{
   display:flex;
   justify-content: center;
   width: 100%;
   margin: .8vw 0 ;
   border:0;
   border-radius: 5px;
-  font-size: 20px;
-
+  font-size: 18px;
 }
 
-.submitB1{
+.submitB{
   display: inline-block;
-  width: 55%;
-  height: 2rem;
+  width: 70%;
   color: black;
-  border: 0;
-  bottom: 0;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 18px;
   position:center;
 }

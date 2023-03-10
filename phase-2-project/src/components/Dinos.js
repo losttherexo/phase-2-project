@@ -92,8 +92,8 @@ function Dinos () {
             <br></br>
             <br></br>
             <br></br>
-            <form className="form-box1" hidden={hideAddForm} id="dinoForm" onSubmit={handleSubmit}>
-                <h2>Add a New Dinosaur</h2>
+            <form className="form-box" hidden={hideAddForm} id="dinoForm" onSubmit={handleSubmit}>
+                <h2 className='text-xl font-bold'>Add a New Dinosaur</h2>
                 <input onChange={handleChange} value={dForm.name}name="name"type="text" placeholder="Dinosaur Name" />
                 <input onChange={handleChange} value={dForm.image}name="image"type="text" placeholder="Dinosaur Image" />
                 <input onChange={handleChange} value={dForm.diet}name="diet"type="text" placeholder="Dinosaur Diet" />
@@ -103,7 +103,7 @@ function Dinos () {
                 <input onChange={handleChange} value={dForm.weight}name="weight"type="text" placeholder="Dinosaur Weight" />
                 <input onChange={handleChange} value={dForm.height}name="height"type="text" placeholder="Dinosaur Height" />
                 <input onChange={handleChange} value={dForm.funFact} name="funFact" type="text" placeholder="Dinosaur Fun Fact" />
-                <button className="submitB1" type="submit">Submit Dinosaur</button>
+                <button className="submitB py-2 border rounded-md shadow-sm hover:bg-slate-400" type="submit">Submit Dinosaur</button>
             </form>
             <br></br>
         </>
